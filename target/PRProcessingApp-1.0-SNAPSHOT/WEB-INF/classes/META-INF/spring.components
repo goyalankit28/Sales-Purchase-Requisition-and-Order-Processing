@@ -1,0 +1,6 @@
+com.webtools.prprocessingapp.controller.AuthenticationController=org.springframework.stereotype.Component
+com.webtools.prprocessingapp.pojo.Invoice=javax.persistence.Entity,javax.persistence.Table
+com.webtools.prprocessingapp.pojo.Requisition=javax.persistence.Entity,javax.persistence.Table
+com.webtools.prprocessingapp.pojo.SupplierItem=javax.persistence.Entity,javax.persistence.Table
+com.webtools.prprocessingapp.pojo.User=javax.persistence.Entity,javax.persistence.Table
+com.webtools.prprocessingapp.pojo.UserRole=javax.persistence.Entity,javax.persistence.Table

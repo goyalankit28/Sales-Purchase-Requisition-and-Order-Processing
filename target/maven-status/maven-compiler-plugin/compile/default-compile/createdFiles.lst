@@ -1,0 +1,13 @@
+com/webtools/prprocessingapp/dao/RequisitionDAO.class
+com/webtools/prprocessingapp/exception/UsersException.class
+com/webtools/prprocessingapp/dao/DAO.class
+com/webtools/prprocessingapp/pojo/UserRole.class
+META-INF/spring.components
+com/webtools/prprocessingapp/dao/SupplierItemsDAO.class
+com/webtools/prprocessingapp/pojo/User.class
+com/webtools/prprocessingapp/dao/InvoiceDAO.class
+com/webtools/prprocessingapp/controller/AuthenticationController.class
+com/webtools/prprocessingapp/dao/UsersDAO.class
+com/webtools/prprocessingapp/pojo/SupplierItem.class
+com/webtools/prprocessingapp/pojo/Requisition.class
+com/webtools/prprocessingapp/pojo/Invoice.class

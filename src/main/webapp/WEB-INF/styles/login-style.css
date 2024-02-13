@@ -1,0 +1,95 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 3, 2023, 10:02:30 PM
+    Author     : ankitgoyal
+*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2f2f2;
+}
+
+.login-box {
+	width: 350px;
+	margin: 100px auto;
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 10px
+}
+.login-box h2 {
+	margin: 0 0 20px;
+	padding: 0;
+	color: #333;
+	text-align: center;
+}
+.login-box form {
+	position: relative;
+}
+.login-box form select {
+	width: 100%;
+	padding: 10px 0;
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #555;
+	border: none;
+	border-bottom: 1px solid #e6e6e6;
+	outline: none;
+	background: transparent;
+	-webkit-appearance: none;
+}
+.login-box form label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 16px;
+	font-weight: 600;
+	color: #999;
+	pointer-events: none;
+	transition: .5s;
+}
+.login-box form input[type="text"],
+.login-box form input[type="password"] {
+	width: 100%;
+	padding: 10px 0;
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #555;
+	border: none;
+	border-bottom: 1px solid #e6e6e6;
+	outline: none;
+	background: transparent;
+}
+.login-box form input[type="text"]:focus ~ label,
+.login-box form input[type="password"]:focus ~ label,
+.login-box form input[type="text"]:valid ~ label,
+.login-box form input[type="password"]:valid ~ label {
+	top: -20px;
+	font-size: 12px;
+	color: #ff6600;
+}
+.login-box form button[type="submit"] {
+	background: #ff6600;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	cursor: pointer;
+	transition: .5s;
+}
+.login-box form button[type="submit"]:hover {
+	background: #333;
+}
+
+
